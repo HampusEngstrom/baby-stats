@@ -1,0 +1,46 @@
+{
+  "Questions": [
+    {
+      "Id": "000000",
+      "Title": "När somnar er bebis för natten?",
+      "Disclaimer": "",
+      "Description": "Bebisar tenderar att få olika sömnrutiner som de erhåller under sin uppväxt",
+      "QuestionType": "SINGLE_ANSWER",
+      "Default": 20,
+      "Keywords": "bebis, somna, sova, sömn, god natt, lägga, natten, natta, när sova, sovtid, tid, sovadags",
+      "Alternatives": [
+        { "label": "Kl 16", "value": 16 },
+        { "label": "Kl 17", "value": 17 },
+        { "label": "Kl 18", "value": 18 },
+        { "label": "Kl 20", "value": 19 },
+        { "label": "Kl 19", "value": 20 },
+        { "label": "Kl 21", "value": 21 },
+        { "label": "Kl 22", "value": 22 },
+        { "label": "Kl 23", "value": 23 },
+        { "label": "Kl 00", "value": 24 },
+        { "label": "Kl 01", "value": 25 },
+        { "label": "Kl 02", "value": 26 }
+      ]
+    },
+    {
+      "Id": "000001",
+      "Title": "Hur ofta går du ut på promenad med din bebis?",
+      "Disclaimer": "",
+      "Description": "Bebisar tenderar att få olika sömnrutiner som de erhäller under sin uppväxt",
+      "QuestionType": "SINGLE_ANSWER",
+      "Keywords": "promenad, gå, barnvagn, ute, gå ut. promenera",
+      "Default": "3 per vecka",
+      "Alternatives": [
+        { "label": "Varje dag", "value": "7 per vecka" },
+        { "label": "6 gånger/vecka", "value": "6 per vecka" },
+        { "label": "5 gånger/vecka", "value": "5 per vecka" },
+        { "label": "4 gånger/vecka", "value": "4 per vecka" },
+        { "label": "3 gånger/vecka", "value": "3 per vecka" },
+        { "label": "2 gånger/vecka", "value": "2 per vecka" },
+        { "label": "1 gång/vecka", "value": "1 per vecka" },
+        { "label": "1-3 gånger/månad", "value": "1-3 per månad" },
+        { "label": "Aldrig", "value": "aldrig" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+Vad heter din son?
+Vad heter din dotter?
+När somnar ditt barn?
+Hur länge sover ditt barn?
+Hur många gånger vaknar ditt barn?
+
+Svara och ta del av resultaten
+Hur tidigt kunde ditt barn ...?
+Vilket blöjmärke?
+
+keywords: sömn, namn, kön,
+
+sömn:
+När somnar ditt barn?
+Hur länge sover ditt barn?
+Hur många gånger vaknar ditt barn?
+
+namn:
+Hur många namn har ditt barn?
+Vad heter ditt barn?
+
+ålder föräldrar:
+Föräldrars ålder vid födsel?
+
+När började ni med?
+Barnmatsburkar?
+Babysim?
+Potträning?
