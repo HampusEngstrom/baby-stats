@@ -2,10 +2,15 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  entry: __dirname + "/src/index.js",
+  entry: path.join(__dirname, "/src/index.js"),
   output: {
-    path: __dirname + "/dist",
+    path: path.join(__dirname, "dist"),
     filename: "main.js"
+  },
+  devServer: {
+    contentBase: path.join(__dirname, "dist"),
+    compress: true,
+    port: 9000
   },
   module: {
     rules: [
@@ -26,7 +31,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.less$/,
+        test: /\.css$/,
         use: [
           {
             loader: "style-loader"
@@ -46,5 +51,10 @@ module.exports = {
       }
     ]
   },
-  plugins: [new HtmlWebpackPlugin({ filename: "public/index.html" })]
+  plugins: [
+    new HtmlWebpackPlugin({
+      filename: "index.html",
+      template: "public/index.html"
+    })
+  ]
 };
