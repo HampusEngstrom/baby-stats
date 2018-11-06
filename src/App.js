@@ -1,8 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import { connect } from "react-redux";
 import Style from "./App.module.css";
-import SearchField from "./features/searchField";
+import QuestionInput from "./features/questions/QuestionInput";
+import QuestionList from "./features/questions/QuestionList";
 import Loading from "./components/Loading";
 import Styled from "styled-components";
 
@@ -20,7 +20,8 @@ const App = () => {
   return (
     <Background>
       <Loading>
-        <SearchField />
+        <QuestionInput />
+        <QuestionList />
       </Loading>
     </Background>
   );

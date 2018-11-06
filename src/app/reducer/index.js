@@ -1,10 +1,10 @@
 import { combineReducers } from "redux";
 import reduceReducers from "reduce-reducers";
 
-import findQuestion from "./../../features/findQuestion/findQuestionReducer";
+import questions from "./../../features/questions/questionsReducer";
 
 const combinedReducers = combineReducers({
-  findQuestion
+  questions
 });
 
 const rootReducer = reduceReducers(combinedReducers);
